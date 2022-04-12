@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 2502px) and (min-width:1601px) {
+
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1100px) {
+	.swiper-container{
+    height: 500px;
+  }
+
+  .footer a i{
+    padding: 0 9px !important;
+  }
+	.swiper-featured .swiper-slide{
+		width: 100%;
+	}
+	.feature_descWrap{
+		width:100%;
+	}
+	.descriptionW h3{
+		font-size: 1.8rem;
+	}
+	.about-home-before{
+		max-width: 320px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+@media only screen and (min-width: 980px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+  .section-block-bg, .section-block-parallax{
+    padding: 50px 0;
+  }
+  .swiper-container{
+    height: 375px;
+  }
+	.contact-box h1{
+		font-size: 4rem;
+	}
+	.descriptionW{
+		padding: 0px 20px 20px;
+	}
+	.about-home-before {
+    max-width: 300px;
+	}
+	.swiper-img{
+		padding-right: 15%;
+	}
+	.slider-video {
+		height: 500px
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		max-width:100%;
+	}
+	.section-md{
+		padding: 40px 0;
+	}
+	.contact-box h1{
+		/*font-size: 2.5rem;*/
+		font-size: 2rem;
+		/*line-height:45px;*/
+		line-height:40px;
+	}
+	.about-home-before{
+		display: none;
+	}
+	.feature_descWrap{
+		margin-bottom: 40px;
+		min-height: 400px;
+	}
+	.swiper-img{
+		padding-right: 0%;
+	}
+	.slider-empty{
+		height: 50px;
+	}
+	.banner h2{
+		font-size:3rem;
+	}
+	.modal-dialog{
+		width: 90%;
+		margin: 25px auto;
+		display: block;
+	}
+	.works-image i{
+		width: 40px;
+		height: 40px;
+	}
+	.works-image i::after{
+		left: 14px;
+    top: 19px;
+	}
+	.works-image i::before{
+		top:13px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.swiper-container{
+    height: 285px;
+  }
+	.banner h2{
+		font-size:2rem;
+	}
+	.descriptionW{
+		min-height: 350px;
+	}
+	.feature_descWrap{
+		padding: 0;
+		border-width: 5px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.swiper-container{
+    height: 230px;
+  }
+	.slider-video {
+		height: 350px
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 767px)
+and (orientation : landscape) {
+	.col-6-landscape{
+		width: 50%;
+	}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+
+}
